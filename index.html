@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="wikiStyle.css">
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row text-center aligeneral">
+            <div class="wiki-area">
+                <h1>Wikipedia Viewer</h1>
+                <form id="form-container">
+                    <div class="input-group">
+                        <input class="form-control" type="search" id="wikiSearch" value="" placeholder="Search...">
+                        <span class="input-group-addon" class="form-control-feedback">
+                          <i class="fa fa-search"></i>
+                        </span>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-primary" target="_black">Random Wikipedia</a>
+                </form>
+                <div id="wikiContent">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="wikiScript.js"></script>
+</body>
+
+</html>

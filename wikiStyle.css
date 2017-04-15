@@ -1,0 +1,50 @@
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+body {
+    background-color: #008299;
+    background-size: cover;
+    height: 2000px;
+}
+
+#wikiDiv {
+    width: 1150px;
+    background-color: lightgray;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: black;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin: 50px 0;
+}
+
+.btn-primary {
+    margin-top: 40px;
+}
+
+#wikiTitle {
+    color: darkcyan;
+}
+
+input[type=search] {
+    width: 10%;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+form {
+    width: 17%;
+    margin: auto;
+}
