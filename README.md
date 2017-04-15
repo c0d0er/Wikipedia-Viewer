@@ -1,5 +1,5 @@
 ## Wikipedia-Viewer
-#### Check it out [here](https://c0d0er.github.io/Simon-Game/)
+#### Check it out [here](https://c0d0er.github.io/Wikipedia-Viewer/)
 
 #### Fulfill the below user stories:
 - User Story: I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
